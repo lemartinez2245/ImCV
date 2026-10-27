@@ -1,0 +1,28 @@
+# --- Dependencias y entorno ---
+.venv/
+.trash/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# --- Herramientas de calidad ---
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Sistema y editores ---
+.DS_Store
+*.swp
+*~
+
+# --- Artefactos locales del proyecto ---
+.trash/
+Excalidraw/
+.agents/
+.obsidian/
+skills-lock.json
+opencode.json
